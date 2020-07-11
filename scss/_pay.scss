@@ -1,0 +1,22 @@
+.pay {
+    .pay-wrap {
+        display: flex;
+        justify-content: space-between;
+        &__content {
+            width: 30%;
+            .min-title {
+                margin-top: 20px;
+            }
+            .link-position {
+                margin-top: 25px;
+            }
+        }
+    }
+    .host-wrap {
+        margin-top: 190px;
+        flex-direction: row-reverse;
+        .host-content {
+            margin: 100px 0 0 80px;
+        }
+    }
+}

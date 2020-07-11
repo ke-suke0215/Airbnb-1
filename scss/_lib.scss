@@ -1,0 +1,116 @@
+$green: rgb(0, 132, 137);
+
+@mixin pc {
+    @media screen and (min-width: 1131px){
+        @content;
+    }
+}
+
+@mixin tab {
+    @media screen and (max-width: 1130px){
+        @content;
+    }
+}
+@mixin sp {
+    @media screen and (max-width: 730px){
+        @content;
+    }
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    color: #444;
+}
+
+main {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.min-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+.inner {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 5.7rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 0 70px;
+    &:before {
+        display: block;
+        content: "";
+        width: 60px;
+        height: 2px;
+        background-color: #777;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+}
+
+.link {
+    color: $green;
+    margin-bottom: 10px;
+    &:hover {
+        border-bottom: 1px solid;
+    }
+}
+
+.host-wrap {
+    display: flex;
+    height: 500px;
+    .host-content {
+        width: 50%;
+        position: relative;
+        margin-top: 25px;
+        .point {
+            font-size: 80px;
+            color: rgb(253, 176, 10);
+            position: absolute;
+        }
+        &__exp {
+            position: absolute;
+            top: 50px;
+            width: 85%;
+            .host-text {
+                font-size: 3.3rem;
+                line-height: 40px;
+            }
+            .host-from {
+                margin-top: 25px;
+                color: #888;
+            }
+            .host-btn {
+                width: 50%;
+                height: 46px;
+                margin-top: 25px;
+                border: 2px solid #444;
+                border-radius: 4px;
+                background-color: white;
+                font-weight: bold;
+                font-size: 1.6rem;
+                color: #444;
+            }
+        }
+    }
+    .host-img {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}

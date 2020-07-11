@@ -1,0 +1,31 @@
+.relief {
+    .title {
+        margin-top: 150px;
+    }
+    .relief-wrap {
+        display: flex;
+        height: 230px;
+        align-items: center;
+        .relief-text {
+            width: 50%;
+            line-height: 2.7rem;
+            padding-right: 100px;
+        }
+        ul {
+            height: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .check {
+                color: $green;
+            }
+        }
+    }
+    .link-positon {
+        margin-top: 20px;
+    }
+    img {
+        margin-top: 100px;
+        width: 100%;
+    }
+}

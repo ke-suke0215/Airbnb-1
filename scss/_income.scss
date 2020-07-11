@@ -1,0 +1,32 @@
+.income {
+    display: flex;
+    align-items: center;
+    margin: 90px auto 0;
+    background-image: url(../img/dbe25d99-6821-4e02-802f-fcd7aaef85bc.jpg);
+    background-size: cover;
+    max-width: 1300px;
+    background-position: center;
+    height: 447px;
+    .income-content {
+        margin-left: 10%;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .increase {
+            color: white;
+            font-size: 5.7rem;
+            font-weight: bold;
+            width: 400px;
+        }
+        .make {
+            height: 42px;
+            width: 180px;
+            background-color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+    }
+}

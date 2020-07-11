@@ -1,0 +1,21 @@
+.step {
+    .step-wrap{
+        display: flex;
+        justify-content: space-between;
+        &__content {
+            width: 30%;
+            img {
+                width: 45px;
+            }
+            .min-title {
+                margin-top: 20px;
+            }
+            .link-position {
+                margin-top: 25px;
+            }
+        }
+    }
+    .host-wrap {
+        margin-top: 190px;
+    }
+}

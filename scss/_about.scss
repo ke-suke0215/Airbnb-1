@@ -1,0 +1,13 @@
+.about-wrap {
+        display: flex;
+        justify-content: space-between;
+        &__content {
+            width: 44%;
+            .min-title {
+                margin-top: 20px;
+            }
+            .link-position {
+                margin-top: 25px;
+            }
+        }
+    }

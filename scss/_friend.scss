@@ -1,0 +1,12 @@
+.friend-wrap {
+    display: flex;
+    justify-content: space-between;
+    &__content {
+        width: 30%;
+        text-align: center;
+        .friend-num {
+            margin-top: 20px;
+            font-size: 5.7rem;
+        }
+    }
+}
